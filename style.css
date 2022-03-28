@@ -11,8 +11,8 @@ ul {
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
-  background-position: relative;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.png);
+  background-position: center;
   background-size: cover;
 }
 
@@ -36,7 +36,6 @@ nav img {
   display: inline-block;
   padding: 8px 12px;
   position: relative;
-
 }
 
 .nav-links ul li a {
@@ -47,8 +46,8 @@ nav img {
 
 .nav-links ul li::after {
   content: "";
-  width:0%;
-  height:2px;
+  width: 0%;
+  height: 2px;
   background: #f44336;
   margin: auto;
   display: block;
@@ -56,14 +55,14 @@ nav img {
 }
 
 .nav-links ul li:hover::after {
-  width:100%;
+  width: 100%;
 }
 
 .text-box {
-  width:90%;
+  width: 90%;
   color: #fff;
-  position:absolute;
-  top:50%;
+  position: absolute;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -101,10 +100,11 @@ nav .fa {
   display: none;
 }
 
-@media(max-width: 700px){
+@media (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
   }
+
   .nav-links ul li {
     display: block;
   }
@@ -113,18 +113,18 @@ nav .fa {
     position: absolute;
     background: #f44336;
     height: 100vh;
-    top:0;
-    right:-200px;
+    top: 0;
+    right: -200px;
     text-align: left;
     z-index: 2;
-    width:200px;
+    width: 200px;
     font-weight: bold;
     transition: 1s;
   }
 
   nav .fa {
     display: block;
-    color:#fff;
+    color: #fff;
     font-size: 25px;
     margin: 10px;
     cursor: pointer;
@@ -175,10 +175,10 @@ nav .fa {
 }
 
 .course-col:hover {
-  box-shadow: 0 0 20px 0px rgba(0,0,0, 0.2);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
 }
 
-@media(max-width: 700px){
+@media (max-width: 700px) {
   .row {
     flex-direction: column;
   }
@@ -212,12 +212,12 @@ nav .fa {
   width: 100%;
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   transition: 0.5s;
 }
 
 .campus-col .layer:hover {
-  background: rgba(226,0,0,0.7);
+  background: rgba(226, 0, 0, 0.7);
 }
 
 .layer h3 {
@@ -234,6 +234,6 @@ nav .fa {
 }
 
 .layer:hover h3 {
-  bottom :49%;
-  opacity:1;
+  bottom: 49%;
+  opacity: 1;
 }
