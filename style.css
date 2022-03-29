@@ -233,11 +233,6 @@ nav .fa {
   transition: 0.5s;
 }
 
-.layer:hover h3 {
-  bottom: 49%;
-  opacity: 1;
-}
-
 .facility {
   margin: auto;
   width: 80%;
@@ -362,4 +357,9 @@ nav .fa {
 
 .fa-heart-o {
   color: #f44336;
+}
+
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
 }
