@@ -237,3 +237,129 @@ nav .fa {
   bottom: 49%;
   opacity: 1;
 }
+
+.facility {
+  margin: auto;
+  width: 80%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.facilty-col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.facilty-col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilty-col p {
+  padding: 0;
+  text-align: center;
+}
+
+.facilty-col h3 {
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+
+.testimonials {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.testimonials-col {
+  flex-basis: 44%;
+  margin-bottom: 5%;
+  text-align: left;
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  cursor: pointer;
+  background: #fff3f3;
+}
+
+.testimonials-col img {
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.testimonials-col p {
+  padding: 0;
+  font-size: 10px;
+}
+
+.testimonials-col h3 {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.testimonials-col .fa {
+  color: #f44336;
+}
+
+@media (max-width: 700px) {
+  .testimonials-col img {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+.cta {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner2.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta h2 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  .cta h2 {
+    font-size: 30px;
+  }
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+/* .footer p {
+  margin-right: 10px;
+  margin-left: 10px;
+} */
+
+.icons .fa {
+  color: #f44336;
+  margin: 0 13px;
+  padding: 18px 0;
+  cursor: pointer;
+}
+
+.fa-heart-o {
+  color: #f44336;
+}
