@@ -38,12 +38,6 @@ nav img {
   position: relative;
 }
 
-.nav-links ul li a {
-  color: white;
-  font-size: 13px;
-  text-decoration: none;
-}
-
 .nav-links ul li::after {
   content: "";
   width: 0%;
@@ -244,7 +238,6 @@ nav .fa {
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
-  text-align: left;
 }
 
 .facilty-col img {
@@ -331,22 +324,67 @@ nav .fa {
   }
 }
 
-.footer {
-  width: 100%;
+footer {
+  width: 95%;
   text-align: center;
-  padding: 30px 0;
+  padding-top: 1px;
+  min-height: 10vh;
+  background-color: black;
+  color: #fff;
+  margin: 0 auto 0 auto;
+  border-radius: 10px;
 }
 
-.footer h4 {
-  margin-bottom: 25px;
+.footers {
+  flex-basis: 31%;
+  margin-bottom: 5%;
+  padding: 0;
+}
+
+.left h4 {
+  margin-bottom: 15px;
   font-weight: 600;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
-/* .footer p {
-  margin-right: 10px;
-  margin-left: 10px;
-} */
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 700px) {
+  .right {
+    align-items: center;
+  }
+}
+
+.right address {
+  text-align: left;
+}
+
+.right p {
+  margin-top: 30px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+}
+
+.center a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.nav-links ul li a {
+  color: white;
+  font-size: 13px;
+  text-decoration: none;
+}
 
 .icons .fa {
   color: #f44336;
