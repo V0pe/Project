@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <div><nav>
+            <a href="index.html"><img src="images/logo.png" alt="eduford logo"></a>
+            <div class="nav-links" id="navLinks">        
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>     
+            </nav>
+        </div>
+        <h1>About US</h1>     
+    </section>
+    <section class="about-us">
+        <div class="row">
+        <div class="about-col">
+            <h2>We are the world best University</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Labore fugit quibusdam cum totam quasi, harum saepe quisquam 
+            inventore voluptates. Dolorum aliquam molestiae est aperiam 
+            corporis libero cumque esse sapiente ducimus?</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg" alt="about maelford">
+        </div>
+        </div>
+
+    </section>
+    
+    
+
+    
+    <footer>
+        <div class="row">
+        <div class="footers left">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Fuga sed illum harum odio hic, odit repudiandae asperiores 
+            repellendus ab eum. <br> Deserunt excepturi nulla impedit fugiat
+            molestiae iure deleniti laboriosam quam.</p>
+        </div>
+        <div class="footers center">
+            <a href="/about.html">About</a>
+            <a href="">Courses</a>
+            <a href="">Facilities</a>
+            <a href="">Blog</a>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div class="footers right">
+            <address>Lorem ipsum dolor sit amet <br> consectetur adipisicing elit. <br> Quibusdam, sit.</address>
+            <p>Made with <i class="fa fa-heart-o"></i> V0pe</p>
+            </div>
+            </div>
+        </footer>
+
+
+    <script>
+        var navlinks = document.getElementById("navLinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
